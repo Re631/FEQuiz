@@ -3,6 +3,5 @@
 
    <%-- ここはフッターです  --%>
 
-<div class="footer">
-</div>
+<footer></footer>
 

@@ -2,7 +2,6 @@
 	pageEncoding="UTF-8"%>
 
 <%-- ここはヘッダーです  --%>
-テスト
 
-<div class="header">
-</div>
+<header>
+</header>
