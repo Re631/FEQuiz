@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+/*
+ * スタイル設定の初期化
+ */
+*{
+	/*ブラウザ初期設定の余白全解除*/
+	margin:0;
+	padding:0;
+
+	/*padding等でのレイアウト崩れ対策*/
+	box-sizing:border-box
+
+	font-family:'Meiryo', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+
+html{
+	/*最初からスクロールバーを表示して横幅固定*/
+	overflow-y:scroll;
+}
+
+
+address {
+	/*デフォルト斜体消去*/
+	font-style:normal;
+}
+
+
+img{
+	/*デフォルト枠線消去*/
+	border:0;
+}
+
+
+p {
+	/*段落再指定*/
+	margin-bottom:1em;
+}
+
+
+li {
+	/*デフォルト先頭文字消去*/
+	list-style-type:none;
+}
