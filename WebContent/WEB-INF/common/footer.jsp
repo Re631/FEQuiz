@@ -3,5 +3,6 @@
 
    <%-- ここはフッターです  --%>
 
-<footer></footer>
+<footer>
+</footer>
 
