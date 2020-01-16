@@ -13,7 +13,7 @@
 
 <body>
 	<jsp:include page="../WEB-INF/common/header.jsp" />
-	
+
 	<div class="content">
 
 	<table style="background-color:#ff9900;" align="center" valign="middle">
@@ -23,8 +23,8 @@
 			</td>
 		</tr>
 	</table>
-	
-	
+
+
 	<table  align="center" valign="middle">
 		<tr>
 			<td><a href="http://localhost:8080/FEQuiz/quiz/quiz.jsp">はじめる</a></td>
