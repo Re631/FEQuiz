@@ -12,3 +12,4 @@
 		<a href="#">モード選択</a>
 	</div>
 </header>
+<div class="header-dammy"></div>
