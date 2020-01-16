@@ -5,10 +5,10 @@
 
 <header>
 	<div class="header-left">
-	
+	ヘッダーです
 	</div>
-	
+
 	<div class="header-right">
-	
+
 	</div>
 </header>
