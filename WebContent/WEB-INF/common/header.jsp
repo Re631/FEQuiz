@@ -5,10 +5,10 @@
 
 <header>
 	<div class="header-left">
-	ヘッダーです
+		<h1>FE学習サイト</h1>
 	</div>
 
 	<div class="header-right">
-
+		<a href="#">モード選択</a>
 	</div>
 </header>
