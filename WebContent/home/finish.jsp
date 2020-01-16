@@ -8,30 +8,18 @@
 <jsp:include page="../WEB-INF/common/load-meta.html" />
 <jsp:include page="../WEB-INF/common/load-css.html" />
 <jsp:include page="../WEB-INF/common/load-js.html" />
-<title>ホーム</title>
+<title>終わり</title>
 </head>
 
 <body>
 	<jsp:include page="../WEB-INF/common/header.jsp" />
 
 	<div class="content">
-
-	<table style="background-color:#ff9900;" align="center" valign="middle">
+		<table  align="center" valign="middle">
 		<tr>
-			<td  align="center" valign="middle">
-				<font size="100"> 基本情報　午前　クイズ！！</font>
-			</td>
+			<td><a href="http://localhost:8080/FEQuiz/home/home.jsp"><h1>終了</h1></a></td>
 		</tr>
 	</table>
-
-
-	<table  align="center" valign="middle">
-		<tr>
-			<td><a href="http://localhost:8080/FEQuiz/quiz/quiz.jsp">はじめる</a></td>
-		</tr>
-	</table>
-
-
 	</div>
 
 	<jsp:include page="../WEB-INF/common/footer.jsp" />
