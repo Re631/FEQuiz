@@ -6,12 +6,17 @@
 /*
  * ヘッダー
  */
+.header-dammy{
+	height:80px;
+}
 header {
 	position: fixed;
 	top: 0;
+
 	width: calc(100% - 20px);
 	height: 80px;
 	padding: 0 10px;
+
 	background-color: #FFB83F;
 }
 
