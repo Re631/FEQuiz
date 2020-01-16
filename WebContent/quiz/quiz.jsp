@@ -12,19 +12,19 @@
 </head>
 
 <body>
-	<jsp:include page="../WEB-INF/common/header.jsp" />
+	<%-- <jsp:include page="../WEB-INF/common/header.jsp" />--%>
 <form  action="" method="post">
 	<div class="content">
 		<h1>問題</h1>
 		<p>デフォルト<br>
-			<input type="radio" name="q1" value="はい"> 
+			<input type="radio" name="q1" value="はい">
 				<script applet code="FileListing.jar"></applet></script>
 			<input type="radio" name="q1" value="いいえ">
-			<input type="radio" name="q1" value="はい"> 
+			<input type="radio" name="q1" value="はい">
 			<input type="radio" name="q1" value="いいえ">
 		</p>
-		
-			
+
+
 	</div>
 
 	<jsp:include page="../WEB-INF/common/footer.jsp" />
