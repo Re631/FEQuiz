@@ -5,7 +5,7 @@
 
 <header>
 	<div class="header-left">
-		<h1>FE学習サイト</h1>
+		<a href="#">FE学習サイト</a>
 	</div>
 
 	<div class="header-right">
