@@ -44,3 +44,7 @@ li {
 	/*デフォルト先頭文字消去*/
 	list-style-type:none;
 }
+
+a{
+	text-decoration: none;
+}

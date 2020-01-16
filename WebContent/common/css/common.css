@@ -1,16 +1,40 @@
 @charset "UTF-8";
 
+.content {
+}
+
 /*
  * ヘッダー
  */
+header {
+	position: fixed;
+	top: 0;
+	width: calc(100% - 20px);
+	height: 80px;
+	padding: 0 10px;
+	background-color: #FFB83F;
+}
 
+.header-left {
+	margin-top: 10px;
+	float: left;
+}
 
+.header-left a {
+	font-family: 'HGP行書体';
+	color: black;
+	font-size: 60px;
+}
 
+.header-right {
+	margin-top : 15px;
+	float: right;
+}
 
+.header-right a {
+	font-size: 30px;
+}
 
 /*
  * フッター
  */
-
-
-
