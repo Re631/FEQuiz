@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<jsp:include page="../WEB-INF/common/header.jsp" />
+	<%--<jsp:include page="../WEB-INF/common/header.jsp" />--%>
 
 	<div class="content">
 
