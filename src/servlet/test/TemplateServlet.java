@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class TemplateServlet
  */
-@WebServlet("../test/Template")
+@WebServlet("/test/Template")
 public class TemplateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -36,7 +36,7 @@ public class TemplateServlet extends HttpServlet {
 
 		request.setAttribute("hello", "こんにちは、これはテンプレートサーブレットです。");
 
-		request.getRequestDispatcher("/test/test.jsp").forward(request, response);
+		request.getRequestDispatcher("../test/test.jsp").forward(request, response);
 	}//doPost
 
 }
