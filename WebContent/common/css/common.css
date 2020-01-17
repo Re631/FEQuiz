@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .content {
-	
+
 }
 
 /*
@@ -45,7 +45,7 @@ header {
  */
 footer {
 	height: 150px;
-	background-color: #408080;
+	background-color: #e6e6e6;
 }
 
 .footer-content{
@@ -64,7 +64,7 @@ footer {
 .footer-right{
 	float:left;
 	margin-left: 10px;
-	padding-top: 20px; 
+	padding-top: 20px;
 }
 
 .footer-right p{
