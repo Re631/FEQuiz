@@ -17,11 +17,25 @@
 
 	<div class="content">
 		<div class="mode-list">
-			<a href="#">カテゴリー選択</a>
-			<a href="#">無限モード</a>
-			<a href="#">タイムアタック</a>
-			<a href="#">スコアアタック</a>
+
+			<div class="category mode-link">
+				<a href="#">カテゴリー選択</a>
+			</div>
+
+			<div class="infinity mode-link">
+				<a href="#">無限モード</a>
+			</div>
+
+			<div class="timeattack mode-link">
+				<a href="#">タイムアタック</a>
+			</div>
+
+			<div class="score mode-link">
+				<a href="#">スコアアタック</a>
+			</div>
 		</div>
+
+		<div class="mode-dummy"></div>
 
 
 	</div>
