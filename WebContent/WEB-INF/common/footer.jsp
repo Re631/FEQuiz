@@ -4,7 +4,9 @@
 <%-- ここはフッターです  --%>
 
 <footer>
-	<div class="footer-logo">基本情報学習サイト</div>
+	<div class="footer-logo">
+		<h1>FE学習サイト</h1>
+	</div>
 	<div class="footer-right">TeamD 作</div>
 </footer>
 
