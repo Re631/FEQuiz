@@ -16,8 +16,10 @@
 <form  action="" method="post">
 	<div class="content">
 		<h1>問題</h1>
+			<p><input type="text" name="c1" value="テキスト入力欄"></p>
 
-
+			<applet code="FileListing.jar"></applet>
+			
 	<table  align="center" valign="middle">
 		<tr>
 			<td><a href="http://localhost:8080/FEQuiz/home/finish.jsp"><h1>次</h1></a></td>
