@@ -60,4 +60,11 @@ footer {
 
 .footer-right{
 	float:left;
+	position: relative;
+	height: 60px:
+}
+
+.footer-right p{
+	position: absolute;
+	bottom: 0;
 }

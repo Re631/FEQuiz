@@ -7,6 +7,8 @@
 	<div class="footer-logo">
 		<h1>FE学習サイト</h1>
 	</div>
-	<div class="footer-right">TeamD 作</div>
+	<div class="footer-right">
+		<p>TeamD 作</p>
+	</div>
 </footer>
 
