@@ -48,23 +48,25 @@ footer {
 	background-color: #408080;
 }
 
+.footer-content{
+	margin-top: 10px
+}
+
 .footer-logo{
 	float: left;
 }
 
 .footer-logo h1 {
-	margin: 10px;
 	font-size: 50px;
 	font-family: 'HGP行書体';
 }
 
 .footer-right{
 	float:left;
-	position: relative;
+	padding-top: 30px; 
 	height: 60px:
 }
 
 .footer-right p{
-	position: absolute;
-	bottom: 0;
+	font-size: 20px;
 }
