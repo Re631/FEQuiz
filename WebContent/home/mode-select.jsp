@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
 <html>
@@ -8,14 +8,17 @@
 <jsp:include page="../WEB-INF/common/load-meta.html" />
 <jsp:include page="../WEB-INF/common/load-css.html" />
 <jsp:include page="../WEB-INF/common/load-js.html" />
-<title>Insert title here</title>
+<title>モード選択</title>
+<link rel="stylesheet" href="../css/mode-select.css">
 </head>
 
 <body>
 	<jsp:include page="../WEB-INF/common/header.jsp" />
 
 	<div class="content">
-		ここに書きたいことをかく
+		
+
+
 	</div>
 
 	<jsp:include page="../WEB-INF/common/footer.jsp" />
