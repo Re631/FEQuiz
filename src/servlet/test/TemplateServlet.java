@@ -38,5 +38,4 @@ public class TemplateServlet extends HttpServlet {
 
 		request.getRequestDispatcher("../test/test.jsp").forward(request, response);
 	}//doPost
-
-}
+}//class
