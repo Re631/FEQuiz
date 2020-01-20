@@ -13,6 +13,7 @@
 
 <body>
 	<jsp:include page="../WEB-INF/common/header.jsp" />
+	 
 <form  action="" method="post">
 	<div class="content">
 		<h1>問題</h1>
