@@ -13,11 +13,16 @@
 
 <body>
 	<jsp:include page="../WEB-INF/common/header.jsp" />
+	 
 <form  action="" method="post">
 	<div class="content">
 		<h1>問題</h1>
-
-
+			<input type="radio" name="q1" value="はい">
+			<input type="radio" name="q1" value="いいえ"> いいえ
+			
+		
+		<body>
+		
 	<table  align="center" valign="middle">
 		<tr>
 			<td><a href="http://localhost:8080/FEQuiz/home/finish.jsp"><h1>次</h1></a></td>
