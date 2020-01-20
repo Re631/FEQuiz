@@ -1,7 +1,7 @@
 $(function(){
-	$('#mode-link').hover(function(){
-		$('#mode-select').css('background','#FFF');
+	$('.mode-link').hover(function(){
+		$('.mode-select').css('background','#FFF');
 	},function(){
-		$('#mode-select').css('background','#000');
+		$('.mode-select').css('background','#000');
 	});
 }});
