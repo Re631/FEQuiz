@@ -1,1 +1,33 @@
 @charset "UTF-8";
+
+.mode-list{
+
+}
+
+.mode-link{
+	float:left;
+	width: 20%;
+}
+
+.mode-link a{
+	color: #000;
+}
+
+.category{
+	background-color: #ff6347;
+}
+
+.infinity{
+	background-color: #3cb371;
+}
+
+.timeattack{
+	background-color: #87cefa;
+}
+
+.score{
+	background-color: yellow;
+}
+.mode-dummy{
+	height: 200px;
+}
