@@ -10,6 +10,7 @@
 <jsp:include page="../WEB-INF/common/load-js.html" />
 <title>モード選択</title>
 <link rel="stylesheet" href="../home/css/mode-select.css">
+<script type="text/javascript" src="./js/mode-select.js"></script>
 </head>
 
 <body>
