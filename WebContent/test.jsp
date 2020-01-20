@@ -25,7 +25,7 @@ a:visited{ color : black;}
 <table style="background-color:#ff9900;" align="center" valign="middle">
 <tr>
 <td  align="center" valign="middle">
-<font size="100"> 基本情報　午前　クイズ！！</font>
+<font size="100"> 基本情報　午前　クイズ！！うんこ</font>
 </td>
 </tr>
 </table>
