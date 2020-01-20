@@ -23,16 +23,16 @@
 				<a href="#">カテゴリー選択</a>
 			</div>
 
-			<div class="infinity mode-link">
-				<a href="#">無限モード</a>
-			</div>
-
 			<div class="timeattack mode-link">
 				<a href="#">タイムアタック</a>
 			</div>
 
 			<div class="score mode-link">
 				<a href="#">スコアアタック</a>
+			</div>
+
+			<div class="infinity mode-link">
+				<a href="#">無限モード</a>
 			</div>
 		</div>
 
