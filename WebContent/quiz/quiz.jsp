@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
 <html>
@@ -19,10 +19,22 @@
 		問題本文
 
 		<div class="answer_list">
-			<input type="radio" class="answer" name="answer" value="true">
-			<input type="radio" class="answer" name="answer" value="false">
-			<input type="radio" class="answer" name="answer" value="false">
-			<input type="radio" class="answer" name="answer" value="false">
+			<div class="answer-content">
+				<input type="radio" class="answer" name="answer" value="true">
+				選択股A
+			</div>
+			<div class="answer-content">
+				<input type="radio" class="answer" name="answer" value="false">
+				選択股B
+			</div>
+			<div class="answer-content">
+				<input type="radio" class="answer" name="answer" value="false">
+				選択股C
+			</div>
+			<div class="answer-content">
+				<input type="radio" class="answer" name="answer" value="false">
+				選択股B
+			</div>
 		</div>
 
 		<input type="button" name="final_anser" value="決定">
