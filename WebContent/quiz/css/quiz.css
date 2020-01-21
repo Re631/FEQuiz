@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
-.answer{
+.question-text{
+	border: solid 1px #000;
+}
 
+.answer{
+}
+
+.answer-label .answerl:checked{
+	font-size:100px;
+}
+
+.anser-label:active{
+	font-size:50px;
+}
+
+.result-content{
+	display: none;
 }
