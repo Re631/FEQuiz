@@ -11,7 +11,7 @@ $(function(){
 	$("#final-answer").on('click', function(){
 		console.log($(".answer").prop("checked"));
 		console.log($(".answer:checked").val());
-		if($(".answer").prop("checked")){
+		if($(".answer:checked").val() != null){
 			$(".alert").fadeOut(0);
 			$(".result-content").slideDown(200);
 		}else{
