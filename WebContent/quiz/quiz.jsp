@@ -24,7 +24,7 @@
 		<div class="answer_list">
 			<div class="answer-content">
 				<label for="answer1" class="answer-label">選択股A</label>
-					<input type="radio" id="answer1"  class="answer" name="answer" value="false">
+				<input type="radio" id="answer1"  class="answer" name="answer" value="false">
 			</div>
 			<div class="answer-content">
 				<label for="answer2" class="answer-label">選択股B</label>
@@ -48,6 +48,10 @@
 			<form action="url" method="post">
 				<input type="submit" value="次へ">
 			</form>
+		</div>
+
+		<div class="alert">
+			選択肢を選んでください！！
 		</div>
 
 	</div>

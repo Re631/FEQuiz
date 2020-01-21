@@ -9,7 +9,13 @@ $(function(){
 */
 
 	$("#final-answer").on('click', function(){
-		console.log("final-answer");
-		$(".result-content").slideDown(200);
+		console.log($(".answer").prop("checked"));
+		console.log($(".answer:checked").val());
+		if($(".answer").prop("checked")){
+			$(".alert").fadeOut(0);
+			$(".result-content").slideDown(200);
+		}else{
+			$(".alert").slideDown(200);
+		}
 	});
 });
