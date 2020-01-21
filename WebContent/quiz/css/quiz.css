@@ -1,18 +1,23 @@
 @charset "UTF-8";
 
 .question-text{
-	border: solid 1px #000;
+	border: solid 1px #000
 }
 
 .answer{
 }
-
+/*
 .answer-label .answerl:checked{
 	font-size:100px;
 }
 
 .anser-label:active{
 	font-size:50px;
+}
+*/
+
+.answer-content{
+	margin: 5px 0;
 }
 
 .result-content{
