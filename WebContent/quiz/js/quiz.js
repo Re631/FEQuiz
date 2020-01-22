@@ -1,12 +1,13 @@
 $(function(){
 
   //よみこんでなかった 要再実行
-/*
+
   $('.answer').on('change', function(){
 	  console.log("answer selected");
-	  $(this).parent('.answer-label').css('font-size','100px');
+	  $(this).parent().css('font-weight','bold');
+	  $(this).parent().css('color','#05ff05');
   });
-*/
+
 
 	$("#final-answer").on('click', function(){
 		console.log($(".answer").prop("checked"));
