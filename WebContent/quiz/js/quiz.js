@@ -4,9 +4,14 @@ $(function(){
 
   $('.answer').on('change', function(){
 	  console.log("answer selected");
+	  /*
+	  $('.answer-label').css('font-weight','initial');
+	  $('.answer-label').css('color','initial');
+		*/
 	  $(this).parent().css('font-weight','bold');
 	  $(this).parent().css('color','#05ff05');
   });
+
 
 
 	$("#final-answer").on('click', function(){
