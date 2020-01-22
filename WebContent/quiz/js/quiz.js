@@ -4,17 +4,19 @@ $(function(){
 
   $('.answer').on('change', function(){
 	  console.log("answer selected");
-	  /*
-	  $(".answer-label").css({
+
+	  $(".answer-content").css({
 		  "font-weight":"initial",
 		  "color":"initial"
 	  });
-	  */
+	  console.log("answer selected2");
+
 
 	  $(this).parent().css({
 		  "font-weight":"bold",
 		  "color":"#05ff05"
 	  });
+	  console.log("answer selected3");
   });
 
 

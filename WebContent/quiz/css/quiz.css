@@ -5,6 +5,7 @@
 }
 
 .answer{
+	display: none;
 }
 /*
 .answer-label .answerl:checked{
