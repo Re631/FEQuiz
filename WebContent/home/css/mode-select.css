@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.mode-list{
+
+}
+
+.mode-link{
+	float:left;
+	width: 20%;
+	margin: 0 calc(2.50% - 2px);
+	padding: 5px 0;
+
+	border: solid 1px #000;
+	text-align: center;
+	font-size: 22px;
+
+}
+
+.mode-link a{
+	color: #000;
+}
+
+.category{
+	background-color: #5BFF7F;
+}
+.category:hover{
+	background-color: #AEFFBD;
+}
+
+.infinity{
+	background-color: #ddd;
+}
+.infinity:hover{
+	background-color: #ccc;
+}
+
+.timeattack{
+	background-color: #87cefa;
+}
+.timeattack:hover{
+	background-color: #a7eeff;
+}
+
+.score{
+	background-color: #ff9872;
+}
+.score:hover{
+	background-color: #ffb882;
+}
+
+.mode-dummy{
+	height: 200px;
+}

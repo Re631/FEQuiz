@@ -1,1 +1,39 @@
 @charset "UTF-8";
+
+.question-text{
+	border: solid 1px #000
+}
+
+.answer{
+	display: none;
+}
+/*
+.answer-label .answerl:checked{
+	font-size:100px;
+}
+
+.anser-label:active{
+	font-size:50px;
+}
+*/
+
+.answer-content{
+	margin: 5px 0;
+}
+
+.result-content{
+	display: none;
+}
+
+.result{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.alert{
+	display: none;
+
+	font-weight: bold;
+	font-size: 20px;
+	color: #f33;
+}
