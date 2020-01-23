@@ -21,6 +21,7 @@ $(function() {
 			$(".alert").slideDown(200);
 		}
 	});
+
 	*/
 	$("#final-answer").on('click', function() {
 		console.log($(".answer:checked").val());
