@@ -12,6 +12,7 @@ $(function() {
 		});
 	});
 
+	/*
 	$("#final-answer").on('click', function() {
 		if ($(".answer:checked").val() != null) {
 			$(".alert").fadeOut(0);
@@ -20,4 +21,22 @@ $(function() {
 			$(".alert").slideDown(200);
 		}
 	});
+	*/
+	$("#final-answer").on('click', function() {
+		console.log($(".answer:checked").val());
+		if ($(".answer:checked").val() != null) {
+			$(".alert").fadeOut(0);
+			$(".result-content").slideDown(200);
+			
+			if($(".answer:checked").val() === "true"){
+				$(".correct").slideDown(200);
+			}
+			else{
+				$(".incorrect").slideDown(200);
+			}
+		} else {
+			$(".alert").slideDown(200);
+		}
+	});
+	
 });
