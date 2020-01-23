@@ -20,7 +20,7 @@
 		<div class="mode-list">
 
 			<div class="category mode-link">
-				<a href="#">カテゴリー選択</a>
+				<a href="#">カテゴリ選択</a>
 			</div>
 
 			<div class="timeattack mode-link">
