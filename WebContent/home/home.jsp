@@ -7,6 +7,7 @@
 <head>
 <jsp:include page="../WEB-INF/common/load-meta.html" />
 <jsp:include page="../WEB-INF/common/load-css.html" />
+<link rel="stylesheet" type="text/css" href="../home/css/home.css">
 <jsp:include page="../WEB-INF/common/load-js.html" />
 <title>ホーム</title>
 </head>
@@ -15,23 +16,13 @@
 	<jsp:include page="../WEB-INF/common/header.jsp" />
 
 	<div class="content">
+		<div class="gazou"><img src="../home/img/kaeru1.png"></div>
+	    <div class="text"><p>ハイ！注目</p>
+			<p>ようこそ！FE学習サイトへ</p>
+			<p>ここでは基本情報技術者試験の午前問題がたっぷり用意してあるから満足いくまで解きまくろう！</p>
+		</div>
 
-	<table style="background-color:#ff9900;" align="center" valign="middle">
-		<tr>
-			<td  align="center" valign="middle">
-				<font size="100"> 基本情報　午前　クイズ！！</font>
-			</td>
-		</tr>
-	</table>
-
-
-	<table  align="center" valign="middle">
-		<tr>
-			<td><a href="http://localhost:8080/FEQuiz/quiz/quiz.jsp">はじめる</a></td>
-		</tr>
-	</table>
-
-
+		<button class="btn" type="button" onclick="../quiz/quiz.jsp'">スタート</button>
 	</div>
 
 	<jsp:include page="../WEB-INF/common/footer.jsp" />
