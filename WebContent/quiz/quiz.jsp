@@ -43,13 +43,7 @@
 		<input type="button" id="final-answer" name="final_anser" value="決定">
 
 		<div class="result-content">
-			<div class="result"></div>
-			<div class="correct">
-				正解!!
-			</div>
-			<div class="incorrect">
-				残念、不正解です...
-			</div>
+			<div class="result">jsでtextをついかする</div>
 			<div class="keyword">
 				キーワード
 			</div>
