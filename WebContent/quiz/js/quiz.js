@@ -22,10 +22,12 @@ $(function() {
 		}
 	});
 */
+	let flag = true;
 
 	$("#final-answer").on('click', function() {
 		console.log($(".answer:checked").val());
-		if ($(".answer:checked").val() != null) {
+		$("#hoge").prop('disabled', false);
+		if ($(".answer:checked").val() != null && flag == true) {
 			$(".alert").fadeOut(0);
 			$(".result-content").slideDown(200);
 
@@ -38,7 +40,8 @@ $(function() {
 				$(".result").text("結果:不正解 ×");
 				$(".result").css("color","#66f");
 			}
-		} else {
+			flag = false;
+		} else if($(".answer:checked").val() === null){
 			$(".alert").slideDown(200);
 		}
 	});
