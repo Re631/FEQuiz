@@ -44,6 +44,8 @@
 
 		<div class="result-content">
 			<div class="result"></div>
+			<div class="correct">正解!</div>
+			<div class="incorrect">残念、不正解です...</div>
 			<div class="keyword">キーワード</div>
 			<form action="url" method="post">
 				<input type="submit" value="次へ">
