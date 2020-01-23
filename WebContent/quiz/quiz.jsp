@@ -45,7 +45,7 @@
 		<div class="result-content">
 			<div class="result"></div>
 			<div class="correct">
-				正解!
+				正解!!
 			</div>
 			<div class="incorrect">
 				残念、不正解です...

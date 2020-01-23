@@ -27,9 +27,13 @@
 
 .correct{
 	display: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: #f66;
 }
 .incorrect{
 	display: none;
+	color: #66f;
 }
 
 .alert{
