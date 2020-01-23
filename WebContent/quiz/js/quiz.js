@@ -30,10 +30,13 @@ $(function() {
 			$(".result-content").slideDown(200);
 
 			if($(".answer:checked").val() === "true"){
-				$(".result").text("〇");
+				$(".result").text("結果:正解 〇");
+				$(".result").css("color","#f66");
+
 			}
 			else{
-				$(".result").text("×");
+				$(".result").text("結果:不正解 ×");
+				$(".result").css("color","#66f");
 			}
 		} else {
 			$(".alert").slideDown(200);
