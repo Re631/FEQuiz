@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="bean.data.Question" %>
 
 <!DOCTYPE html>
 <html>
@@ -11,12 +13,20 @@
 <title>Insert title here</title>
 </head>
 
+<%
+	Object obj = null;
+	Question question = null;
+
+	obj = request.getAttribute("question");
+	if(obj != null) question = (Question)obj;
+%>
+
 <body>
 	<jsp:include page="../WEB-INF/common/header.jsp" />
 
 	<div class="content">
 		<div class="question-text">
-		問題本文
+		<%= question.getText() %>
 		</div>
 
 		<div class="answer_list">
