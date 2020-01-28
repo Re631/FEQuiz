@@ -40,19 +40,19 @@
 		<div class="answer_list">
 			<div class="answer-content">
 				<label for="answer1" class="answer-label"><%= ((Answer)(answerList.get(0))).getText() %></label>
-				<input type="radio" id="answer1"  class="answer" name="answer" value="false">
+				<input type="radio" id="answer1"  class="answer" name="answer" value="<%= ((Answer)(answerList.get(0))).isBool() %>">
 			</div>
 			<div class="answer-content">
-				<label for="answer2" class="answer-label">選択股B</label>
-				<input type="radio" id="answer2"  class="answer" name="answer" value="false">
+				<label for="answer2" class="answer-label"><%= ((Answer)(answerList.get(1))).getText() %></label>
+				<input type="radio" id="answer2"  class="answer" name="answer" value="<%= ((Answer)(answerList.get(1))).isBool() %>">
 			</div>
 			<div class="answer-content">
-				<label for="answer3" class="answer-label">選択股C</label>
-				<input type="radio" id="answer3"  class="answer" name="answer" value="false">
+				<label for="answer3" class="answer-label"><%= ((Answer)(answerList.get(2))).getText() %></label>
+				<input type="radio" id="answer3"  class="answer" name="answer" value="<%= ((Answer)(answerList.get(2))).isBool() %>">
 			</div>
 			<div class="answer-content">
-				<label for="answer4" class="answer-label">選択股D</label>
-				<input type="radio" id="answer4"  class="answer" name="answer" value="true">
+				<label for="answer4" class="answer-label"><%= ((Answer)(answerList.get(3))).getText() %></label>
+				<input type="radio" id="answer4"  class="answer" name="answer" value="<%= ((Answer)(answerList.get(3))).isBool() %>">
 			</div>
 		</div>
 
@@ -61,7 +61,7 @@
 		<div class="result-content">
 			<div class="result">jsでtextをついかする</div>
 			<div class="keyword">
-				キーワード
+				<%= question.getKeyword() %>
 			</div>
 			<form action="url" method="post">
 				<input type="submit" value="次へ">

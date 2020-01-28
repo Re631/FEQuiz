@@ -51,7 +51,7 @@ public class ModeInfinityServlet extends HttpServlet {
 
 
 		request.setAttribute("question", question);
-		request.setAttribute("answer", answerList);
+		request.setAttribute("answerList", answerList);
 
 
 
