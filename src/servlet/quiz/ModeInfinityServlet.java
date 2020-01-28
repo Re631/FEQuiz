@@ -48,6 +48,8 @@ public class ModeInfinityServlet extends HttpServlet {
 		answerList.add(new Answer(101, 3, "これは解答3です", false));
 
 		Question question =  new Question(101, "これが問題です", "これは問題のキーワードです", 101);
+
+
 		request.setAttribute("question", question);
 		request.setAttribute("answer", answerList);
 

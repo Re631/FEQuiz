@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="bean.data.Question" %>
+<%@ page import="bean.data.Answer" %>
 
 <!DOCTYPE html>
 <html>
@@ -9,16 +10,23 @@
 <head>
 <jsp:include page="../WEB-INF/common/load-meta.html" />
 <jsp:include page="../WEB-INF/common/load-css.html" />
+<link type="text/css" rel="stylesheet" href="../quiz/css/quiz.css">
 <jsp:include page="../WEB-INF/common/load-js.html" />
-<title>Insert title here</title>
+<script type="text/javascript" src="../quiz/js/quiz.js" defer></script>
+<title>無限モード</title>
 </head>
 
 <%
 	Object obj = null;
+
 	Question question = null;
+	ArrayList answerList = null;
 
 	obj = request.getAttribute("question");
 	if(obj != null) question = (Question)obj;
+
+	obj = request.getAttribute("answerList");
+	if(obj != null) answerList = (ArrayList)obj;
 %>
 
 <body>
@@ -31,7 +39,7 @@
 
 		<div class="answer_list">
 			<div class="answer-content">
-				<label for="answer1" class="answer-label">選択股A</label>
+				<label for="answer1" class="answer-label"><%= ((Answer)(answerList.get(0))).getText() %></label>
 				<input type="radio" id="answer1"  class="answer" name="answer" value="false">
 			</div>
 			<div class="answer-content">
