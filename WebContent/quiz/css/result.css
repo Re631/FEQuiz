@@ -1,1 +1,17 @@
 @charset "UTF-8";
+
+.result-title{
+	font-size: 100px;
+	font-family: 'HGP行書体';
+}
+
+.pass{
+	font-size: 30px;
+	font-weight: bold;
+	color: #f66;
+}
+.failure{
+	font-size: 30px;
+	font-weight: bold;
+	color: #66f;
+}

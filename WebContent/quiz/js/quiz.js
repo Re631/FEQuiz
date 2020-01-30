@@ -45,6 +45,8 @@ $(function() {
 			$(".alert").slideDown(200);
 		}
 	});
+	
+	$("#bool").prop("")
 
 
 });

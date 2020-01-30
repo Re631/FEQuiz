@@ -69,6 +69,7 @@
 			</form>
 
 			<form action="http://localhost:8080/FEQuiz/quiz/ModeInfinity" method="post">
+				<input type="hidden" id="bool" name="bool" value="bool">
 				<input type="submit" class="next rbtn" value="次へ">
 			</form>
 		</div>
