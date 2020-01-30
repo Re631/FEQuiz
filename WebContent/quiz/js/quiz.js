@@ -27,7 +27,7 @@ $(function() {
 	$("#final-answer").on('click', function() {
 		console.log($(".answer:checked").val());
 		$("#hoge").prop('disabled', false);
-		if ($(".answer:checked").val() != null && flag == true) {
+		if (typeof $(".answer:checked").val() != "undefined" && flag == true) {
 			$(".alert").fadeOut(0);
 			$(".result-content").slideDown(200);
 
@@ -41,7 +41,7 @@ $(function() {
 				$(".result").css("color","#66f");
 			}
 			flag = false;
-		} else if($(".answer:checked").val() === null){
+		} else if(typeof $(".answer:checked").val() === "undefined"){
 			$(".alert").slideDown(200);
 		}
 	});

@@ -17,6 +17,10 @@
 }
 */
 
+.content{
+	padding: 0 20px;
+}
+
 .answer-content{
 	margin: 5px 0;
 }
@@ -36,4 +40,13 @@
 	font-weight: bold;
 	font-size: 20px;
 	color: #f33;
+}
+
+.rbtn{
+	float: left;
+	width: 50px;
+	margin-left: 20px;
+}
+.dummy{
+	clear: both;
 }

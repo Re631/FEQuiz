@@ -63,10 +63,16 @@
 			<div class="keyword">
 				<%= question.getKeyword() %>
 			</div>
+
 			<form action="url" method="post">
-				<input type="submit" value="次へ">
+				<input type="submit" class="finish rbtn" value="終了">
+			</form>
+
+			<form action="http://localhost:8080/FEQuiz/quiz/ModeInfinity" method="post">
+				<input type="submit" class="next rbtn" value="次へ">
 			</form>
 		</div>
+		<div class="dummy"></div>
 
 		<div class="alert">
 			選択肢を選んでください！！
