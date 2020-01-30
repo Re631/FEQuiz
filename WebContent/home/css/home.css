@@ -2,20 +2,12 @@
 body{
 	font-family:"メイリオ";
 }
-.sextuto p{
-	display:inline-block;
-	vertical-align:top;
-}
-
 .content button{
 	color:black;
 	background-color:#FFB83F;
 	font-size:50px;
-    border:solid 3px white;
     padding:30px 50px;
 }
-
-
 .content h1{
 	color:red;
 	font-size:50px;
