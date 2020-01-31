@@ -26,7 +26,6 @@ $(function() {
 
 	$("#final-answer").on('click', function() {
 		console.log($(".answer:checked").val());
-		$("#hoge").prop('disabled', false);
 		if (typeof $(".answer:checked").val() != "undefined" && flag == true) {
 			$(".alert").fadeOut(0);
 			$(".result-content").slideDown(200);
@@ -44,10 +43,21 @@ $(function() {
 		} else if(typeof $(".answer:checked").val() === "undefined"){
 			$(".alert").slideDown(200);
 		}
+
+
+
+		$("#bool").val($(".answer:checked").val());
+
+		//正答率処理
+		let tpoint = 0;
+		let fquestion = 0;
+		fquestion++;
+		if($(".answer:checked").val() == true){
+			tpoint++;
+		}
+		console.log("tpoint:"+ tpoint);
+		console.log("fquestion:"+ fquestion);
+
 	});
-
-
-	$("#bool").val($(".answer:checked").val());
-
 
 });
