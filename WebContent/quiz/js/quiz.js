@@ -45,8 +45,9 @@ $(function() {
 			$(".alert").slideDown(200);
 		}
 	});
-	
-	$("#bool").prop("")
+
+
+	$("#bool").val($(".answer:checked").val());
 
 
 });
