@@ -6,7 +6,7 @@
 <header>
 	<div class="header-left">
 		<!--<a href="#">FE学習サイト</a> -->
-		<h1><a href="/"></a></h1>
+		<h1><a href="#"></a></h1>
 	</div>
 
 	<div class="header-right">

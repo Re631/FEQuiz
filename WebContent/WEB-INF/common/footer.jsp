@@ -9,7 +9,7 @@
 			<h1>FE学習サイト</h1>
 		</div>
 		<div class="footer-right">
-			<p>TeamD 作</p>
+			<p>―TeamD 作―</p>
 		</div>
 	</div>
 </footer>
