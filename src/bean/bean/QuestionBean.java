@@ -24,9 +24,9 @@ public class QuestionBean implements Serializable {
 
 	//SQL
 	public static final String SQL = ""
-			+ " SELECT question.id, question.text, question.keyword, question.category_id"
+			+ " SELECT id, text, keyword, category_id"
 			+ " FROM question"
-			+ " ORDER BY question.id ASC";
+			+ " ORDER BY id ASC";
 
 	// テーブル情報
 	private ArrayList<Question> array = null;
