@@ -34,6 +34,7 @@
 
 	<div class="content">
 		<div class="question-text">
+		<div id="seikaisuu" data-val="5">5</div><div id="kaitousuu" data-val="10">10</div>
 		<%= question.getText() %>
 		</div>
 
@@ -64,7 +65,7 @@
 				<%= question.getKeyword() %>
 			</div>
 
-			<form action="url" method="post">
+			<form action="http://localhost:8080/FEQuiz/quiz/result.jsp" method="post">
 				<input type="submit" class="finish rbtn" value="終了">
 			</form>
 

@@ -20,6 +20,15 @@ header {
 	background-color: #FFB83F;
 }
 
+/*
+.h1 a{
+	display: block;
+	width: 300px;
+	height: 80px;
+	background: url(../common/img/rogo_outline.png) left top/64px auto no-repeat;
+}
+*/
+
 .header-left {
 	margin-top: 10px;
 	float: left;

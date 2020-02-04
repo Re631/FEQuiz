@@ -52,7 +52,7 @@ $(function() {
 		let tpoint = 0;
 		let fquestion = 0;
 		fquestion++;
-		if($(".answer:checked").val() == true){
+		if($(".answer:checked").val() === "true"){
 			tpoint++;
 		}
 		console.log("tpoint:"+ tpoint);
