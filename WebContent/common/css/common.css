@@ -7,17 +7,29 @@
 /*
  * ヘッダー
  */
+.header-left h1 {
+	float: left;
+	margin: 4px;
+	padding: 0px 0;
+}
+.header-left h1 a {
+	display: block;
+	width: 260px;
+	height: 70px;
+	font-size: 0;
+	background: url(../img/logo1.png) left top/260px auto no-repeat;
+}
 .header-dammy {
-	height: 80px;
+	height: 100px;
 }
 
 header {
 	position: fixed;
 	top: 0;
 	width: calc(100% - 20px);
-	height: 80px;
+	height: 100px;
 	padding: 0 10px;
-	background-color: #FFB83F;
+	background-color: #e3f5ff;
 }
 
 /*
@@ -41,7 +53,7 @@ header {
 }
 
 .header-right {
-	margin-top: 15px;
+	margin-top: 25px;
 	float: right;
 }
 
@@ -53,29 +65,30 @@ header {
  * フッター
  */
 footer {
-	height: 150px;
+	height: 100px;
 	background-color: #e6e6e6;
 }
 
 .footer-content{
+	text-align: center;
 	padding-top: 10px;
 }
 
 .footer-logo{
-	float: left;
 }
 
 .footer-logo h1 {
-	font-size: 50px;
-	font-family: 'HGP行書体';
+	padding-top: 10px;
+	font-size: 25px;
+	font-family: 'arial narrow';
 }
 
 .footer-right{
-	float:left;
 	margin-left: 10px;
-	padding-top: 20px;
+	padding-top: 10px;
+	font-family: 'arial narrow';
 }
 
 .footer-right p{
-	font-size: 20px;
+	font-size: 15px;
 }

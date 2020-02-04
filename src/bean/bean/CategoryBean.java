@@ -24,9 +24,9 @@ public class CategoryBean implements Serializable {
 
 	//SQL
 	public static final String SQL = ""
-			+ " SELECT category.id, category.name"
+			+ " SELECT id, name"
 			+ " FROM category"
-			+ " ORDER BY category.id ASC";
+			+ " ORDER BY id ASC";
 
 	// テーブル情報
 	private ArrayList<Category> array = null;

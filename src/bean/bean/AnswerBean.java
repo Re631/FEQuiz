@@ -24,9 +24,9 @@ public class AnswerBean implements Serializable {
 
 	//SQL
 	public static final String SQL = ""
-			+ " SELECT answer.question_id, answer.number, answer.text, answer.bool"
+			+ " SELECT question_id, number, text, bool"
 			+ " FROM answer"
-			+ " ORDER BY answer.question_id, answer.number ASC";
+			+ " ORDER BY question_id, number ASC";
 
 	// テーブル情報
 	private ArrayList<Answer> array = null;

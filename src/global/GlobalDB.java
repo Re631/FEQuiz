@@ -11,6 +11,4 @@ public class GlobalDB {
 
 	public static final String RUN_DB_ROLE_NAME = "postgres";
 	public static final String RUN_DB_PASSWORD = "1111";
-
-
 }//class
