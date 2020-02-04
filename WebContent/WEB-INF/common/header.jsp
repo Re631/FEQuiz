@@ -5,13 +5,12 @@
 
 <header>
 	<div class="header-left">
-		<!-- <a href="#">FE学習サイト</a>*/ -->
+		<!--<a href="#">FE学習サイト</a> -->
 		<h1><a href="/"></a></h1>
-
 	</div>
 
 	<div class="header-right">
-		<a href="./home/mode-select.jsp">モード選択</a>
+		<a href="../home/mode-select.jsp">モード選択</a>
 	</div>
 </header>
 <div class="header-dammy"></div>
