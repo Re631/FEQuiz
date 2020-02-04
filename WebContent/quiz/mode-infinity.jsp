@@ -65,7 +65,7 @@
 				<%= question.getKeyword() %>
 			</div>
 
-			<form action="http://localhost:8080/FEQuiz/quiz/result.jsp" method="post">
+			<form action="http://localhost:8080/FEQuiz/quiz/Result" method="post">
 				<input type="submit" class="finish rbtn" value="終了">
 			</form>
 

@@ -11,7 +11,7 @@
 	</div>
 
 	<div class="header-right">
-		<a href="./home/mode-select.jsp">モード選択</a>
+		<a href="../home/mode-select.jsp">モード選択</a>
 	</div>
 </header>
 <div class="header-dammy"></div>
