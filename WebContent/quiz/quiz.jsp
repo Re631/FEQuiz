@@ -15,7 +15,7 @@
 
 <body>
 	<jsp:include page="../WEB-INF/common/header.jsp" />
-
+	
 	<div class="content">
 		<div class="question-text">
 		問題本文

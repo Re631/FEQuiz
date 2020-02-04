@@ -12,10 +12,9 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class TemplateServlet
  */
-@WebServlet("/test/TestNarazaki")
+@WebServlet("/tset/testNarazakikServlet")
 public class TestNarazakiServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
     /**
      * @see HttpServlet#HttpServlet()
      */
